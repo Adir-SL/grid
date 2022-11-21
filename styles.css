@@ -26,7 +26,7 @@ body {
     transition: all 300ms linear 0s;
   }
   .doubleWidth {
-    background-color: red;
+    /* background-color: red; */
     width: calc(960px / 2 - 80px);
   }
   #fabButton {
