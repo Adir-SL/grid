@@ -7,6 +7,8 @@ body {
     justify-content: center;
     background-color: rgb(247, 247, 247);
     font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: #333;
   }
   #wrapper {
     position: absolute;
