@@ -12,7 +12,7 @@ body {
     width: 1000px;
     padding: 20px;
     padding-top: 60px;
-    background-color: gray;
+    background-color: #eee;
   }
   .grid-item {
     width: calc(960px / 4 - 10px);
