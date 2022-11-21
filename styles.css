@@ -3,7 +3,7 @@ body {
     inset: 0;
     position: absolute;
     margin: 0;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
   }
   #wrapper {
