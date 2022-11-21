@@ -5,6 +5,7 @@ body {
     margin: 0;
     /* align-items: center; */
     justify-content: center;
+    background-color: #eee;
   }
   #wrapper {
     position: absolute;
