@@ -15,8 +15,8 @@ body {
     background-color: #eee;
   }
   .grid-item {
-    width: calc(940px / 4 - 10px - 80px);
-    height: calc(940px / 4 - 10px - 80px);
+    width: calc(940px / 4 - 5px - 80px);
+    height: calc(940px / 4 - 5px - 80px);
     margin: 10px;
     padding: 40px;
     background-color: #fff;
@@ -27,7 +27,7 @@ body {
   }
   .doubleWidth {
     background-color: red;
-    width: calc(960px / 2);
+    width: calc(960px / 2 - 80px);
   }
   #fabButton {
     position: fixed;
@@ -46,10 +46,10 @@ body {
       width: calc(100vw - 60px);
     }
     .grid-item {
-      width: calc((100vw - 60px) / 2 - 20px);
-      height: calc((100vw - 60px) / 2 - 20px);
+      width: calc((100vw - 60px) / 2 - 20px - 80px);
+      height: calc((100vw - 60px) / 2 - 20px - 80px);
     }
     .doubleWidth {
-      width: calc((100vw - 60px) / 1 - 20px);
+      width: calc((100vw - 60px) / 1 - 20px - 80px);
     }
   }
