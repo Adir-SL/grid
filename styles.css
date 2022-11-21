@@ -44,7 +44,7 @@ body {
   @media only screen and (max-width: 990px) {
     #wrapper {
       width: calc(100vw - 60px);
-      padding-top: 80vh;
+      /* padding-top: 80vh; */
     }
     .grid-item {
       width: calc((100vw - 60px) / 2 - 20px - 80px);
