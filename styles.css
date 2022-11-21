@@ -15,10 +15,10 @@ body {
     /* padding-top: 60px; */
   }
   .grid-item {
-    width: calc(940px / 4 - 5px - 80px);
-    height: calc(940px / 4 - 5px - 80px);
+    width: calc(940px / 4 - 5px - 48px);
+    height: calc(940px / 4 - 5px - 48px);
     margin: 10px;
-    padding: 40px;
+    padding: 24px;
     background-color: #fff;
     border-radius: 12px;
     box-shadow: 0 0 0 1px rgba(0,0,0,0.1) inset, rgba(149, 157, 165, 0.15) 0px 3px 6px 0px;
@@ -28,7 +28,7 @@ body {
   }
   .doubleWidth {
     /* background-color: red; */
-    width: calc(960px / 2 - 80px);
+    width: calc(960px / 2 - 48px);
   }
   #fabButton {
     position: fixed;
@@ -48,10 +48,10 @@ body {
       /* padding-top: 80vh; */
     }
     .grid-item {
-      width: calc((100vw - 60px) / 2 - 20px - 80px);
-      height: calc((100vw - 60px) / 2 - 20px - 80px);
+      width: calc((100vw - 60px) / 2 - 20px - 48px);
+      height: calc((100vw - 60px) / 2 - 20px - 48px);
     }
     .doubleWidth {
-      width: calc((100vw - 60px) / 1 - 20px - 80px);
+      width: calc((100vw - 60px) / 1 - 20px - 48px);
     }
   }
