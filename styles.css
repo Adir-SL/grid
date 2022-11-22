@@ -45,7 +45,6 @@ body {
     font-size: 2em;
   }
   .doubleWidth {
-    /* background-color: red; */
     width: calc(960px / 2 - 48px);
   }
   #fabButton {
