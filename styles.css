@@ -34,7 +34,9 @@ body {
     pointer-events: none;
   }
   h1{
-    font-size: 3em;
+    font-size: 7em;
+    margin: 0;
+    line-height: 1.6em;
   }
   h2{
     font-size: 2em;
