@@ -3,7 +3,6 @@ body {
     inset: 0;
     position: absolute;
     margin: 0;
-    /* align-items: center; */
     justify-content: center;
     background-color: rgb(247, 247, 247);
     font-family: 'Inter', sans-serif;
