@@ -16,7 +16,6 @@ body {
     min-height: calc(100vh - 40px);
     width: 1000px;
     padding: 20px;
-    /* padding-top: 60px; */
   }
   .grid-item {
     width: calc(940px / 4 - 5px - 48px);
