@@ -58,8 +58,8 @@ body {
     transition: opacity 200ms linear 0s;
   }
   .iconCorner .icon{
-    width: 32px;
-    height: 32px;
+    width: 16px;
+    height: 16px;
     background-color: white;
     background-size: contain;
     background-position: center;
