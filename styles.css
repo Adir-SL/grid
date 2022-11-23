@@ -55,6 +55,7 @@ body {
     padding: 8px;
     gap: 8px;
     opacity: 0;
+    transition: opacity 200ms linear 0s;
   }
   .iconCorner .icon{
     width: 32px;
