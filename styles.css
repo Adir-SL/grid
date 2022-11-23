@@ -46,6 +46,18 @@ body {
   .doubleWidth {
     width: calc(960px / 2 - 48px);
   }
+  .iconCorner{
+    position: absolute;
+    display: flex;
+    right: 0;
+    top: 0;
+  }
+  .iconCorner .icon{
+    width: 32px;
+    height: 32px;
+    background-color: red;
+    margin: 16px;
+  }
   #fabButton {
     position: fixed;
     bottom: 32px;
