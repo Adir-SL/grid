@@ -53,16 +53,23 @@ body {
     right: 0;
     top: 0;
     padding: 8px;
-    gap: 8px;
+    gap: 4px;
     opacity: 0;
     transition: opacity 200ms linear 0s;
   }
   .iconCorner .icon{
     width: 16px;
     height: 16px;
+    padding: 4px;
+    border-radius: 8px;
     background-color: white;
-    background-size: contain;
+    background-size: 16px;
+    background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
+  }
+  .iconCorner .icon:hover{
+    background-color: #eee;
   }
   .arrow-h{
     background-image: url(images/arrow-h.svg);
