@@ -1,5 +1,5 @@
 function gridSize(event) {
-    event.target.classList.toggle("doubleWidth");
+    event.target.parentElement.parentElement.classList.toggle("doubleWidth");
   }
   
   function addtoGrid() {
