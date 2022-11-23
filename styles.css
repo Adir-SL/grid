@@ -17,6 +17,7 @@ body {
     padding: 20px;
   }
   .grid-item {
+    position: relative;
     width: calc(940px / 4 - 5px - 48px);
     height: calc(940px / 4 - 5px - 48px);
     margin: 10px;
@@ -51,12 +52,17 @@ body {
     display: flex;
     right: 0;
     top: 0;
+    padding: 8px;
+    gap: 8px;
+    opacity: 0;
   }
   .iconCorner .icon{
     width: 32px;
     height: 32px;
     background-color: red;
-    margin: 16px;
+  }
+  .grid-item:hover .iconCorner{
+    opacity: 1;
   }
   #fabButton {
     position: fixed;
