@@ -60,7 +60,14 @@ body {
   .iconCorner .icon{
     width: 32px;
     height: 32px;
-    background-color: red;
+    background-color: white;
+    background-size: contain;
+  }
+  .arrow-h{
+    background-image: url(images/arrow-h.svg);
+  }
+  .arrow-v{
+    background-image: url(images/arrow-v.svg);
   }
   .grid-item:hover .iconCorner{
     opacity: 1;
