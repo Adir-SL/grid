@@ -104,9 +104,9 @@ body {
     }
     .grid-item {
       width: calc(var(--wrapperSize) / 2 - 20px - 48px);
-      height: calc((100vw - 60px) / 2 - 20px - 48px);
+      height: calc(var(--wrapperSize) / 2 - 20px - 48px);
     }
     .doubleWidth {
-      width: calc((100vw - 60px) / 1 - 20px - 48px);
+      width: calc(var(--wrapperSize) / 1 - 20px - 48px);
     }
   }
