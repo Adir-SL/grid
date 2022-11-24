@@ -100,7 +100,7 @@ body {
       --wrapperSize: calc(100vw - 60px);
     }
     #wrapper {
-      width: calc(100vw - 60px);
+      /* width: calc(100vw - 60px); */
     }
     .grid-item {
       width: calc((100vw - 60px) / 2 - 20px - 48px);
