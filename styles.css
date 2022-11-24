@@ -103,7 +103,7 @@ body {
       /* width: calc(100vw - 60px); */
     }
     .grid-item {
-      width: calc((100vw - 60px) / 2 - 20px - 48px);
+      width: calc(var(--wrapperSize) / 2 - 20px - 48px);
       height: calc((100vw - 60px) / 2 - 20px - 48px);
     }
     .doubleWidth {
