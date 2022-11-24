@@ -51,7 +51,7 @@ body {
     position: absolute;
     display: flex;
     right: 0;
-    top: 0;
+    bottom: 0;
     padding: 8px;
     gap: 4px;
     opacity: 0;
