@@ -21,8 +21,10 @@ body {
   }
   .grid-item {
     position: relative;
-    width: calc(940px / 4 - 5px - 48px);
-    height: calc(940px / 4 - 5px - 48px);
+    /* width: calc(940px / 4 - 5px - 48px);
+    height: calc(940px / 4 - 5px - 48px); */
+    width: calc(var(--wrapperSize) / 4 - 20px - 48px);
+    height: calc(var(--wrapperSize) / 4 - 20px - 48px);
     margin: 10px;
     padding: 24px;
     background-color: #fff;
@@ -48,7 +50,8 @@ body {
     font-size: 2em;
   }
   .doubleWidth {
-    width: calc(960px / 2 - 48px);
+    /* width: calc(960px / 2 - 48px); */
+    width: calc(var(--wrapperSize) / 2 - 20px - 48px);
   }
   .iconCorner{
     position: absolute;
