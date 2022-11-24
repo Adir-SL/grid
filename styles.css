@@ -34,6 +34,13 @@ body {
     overflow: auto;
     transition: all 300ms linear 0s;
   }
+  /* .grid-item {
+    width: calc(var(--wrapperSize) / 2 - 20px - 48px);
+    height: calc(var(--wrapperSize) / 2 - 20px - 48px);
+  }
+  .doubleWidth {
+    width: calc(var(--wrapperSize) / 1 - 20px - 48px);
+  } */
   h1, h2, h3{
     pointer-events: none;
     font-weight: 600;
@@ -106,9 +113,10 @@ body {
       /* width: calc(100vw - 60px); */
     }
     .grid-item {
+      width: calc(var(--wrapperSize) / 2 - 20px - 48px);
       height: calc(var(--wrapperSize) / 2 - 20px - 48px);
     }
     .doubleWidth {
-      /* width: calc(var(--wrapperSize) / 1 - 20px - 48px); */
+      width: calc(var(--wrapperSize) / 1 - 20px - 48px);
     }
   }
