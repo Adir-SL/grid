@@ -1,6 +1,10 @@
 function gridSize(event) {
     event.target.parentElement.parentElement.classList.toggle("doubleWidth");
   }
+
+function gridSizeV(event) {
+  event.target.parentElement.parentElement.classList.toggle("doubleWidth");
+}
   
   function addtoGrid() {
     document.getElementById("wrapper").innerHTML +=
