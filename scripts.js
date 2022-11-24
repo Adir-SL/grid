@@ -3,7 +3,7 @@ function gridSize(event) {
   }
 
 function gridSizeV(event) {
-  event.target.parentElement.parentElement.classList.toggle("doubleWidth");
+  event.target.parentElement.parentElement.classList.toggle("halfHeight");
 }
   
   function addtoGrid() {
