@@ -50,7 +50,6 @@ body {
     font-size: 2em;
   }
   .double-width {
-    /* width: calc(960px / 2 - 48px); */
     width: calc(var(--wrapperSize) / 2 - 20px - 48px);
   }
   .half-height{
