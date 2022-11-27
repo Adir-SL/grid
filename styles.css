@@ -93,7 +93,7 @@ body {
   .arrow-v{
     background-image: url(images/arrow-v.svg);
   }
-  .grid-item:hover .iconCorner{
+  .grid-item:hover .icon-corner{
     opacity: 1;
   }
   #fab-button {
