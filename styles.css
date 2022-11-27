@@ -73,7 +73,7 @@ body {
     opacity: 0;
     transition: opacity 200ms linear 0s;
   }
-  .iconCorner .icon{
+  .action-icon{
     width: 16px;
     height: 16px;
     padding: 4px;
