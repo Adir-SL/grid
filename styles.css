@@ -60,7 +60,7 @@ body {
     /* width: calc(960px / 2 - 48px); */
     width: calc(var(--wrapperSize) / 2 - 20px - 48px);
   }
-  .halfHeight{
+  .half-height{
     height: calc(var(--wrapperSize) / 8 - 20px - 48px);
   }
   .iconCorner{
