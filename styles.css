@@ -119,7 +119,7 @@ body {
       width: calc(var(--wrapperSize) / 2 - 20px - 48px);
       height: calc(var(--wrapperSize) / 2 - 20px - 48px);
     }
-    .doubleWidth {
+    .double-width {
       width: calc(var(--wrapperSize) / 1 - 20px - 48px);
     }
   }
