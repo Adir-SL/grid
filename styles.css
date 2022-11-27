@@ -96,7 +96,7 @@ body {
   .grid-item:hover .iconCorner{
     opacity: 1;
   }
-  #fabButton {
+  #fab-button {
     position: fixed;
     bottom: 32px;
     right: 32px;
