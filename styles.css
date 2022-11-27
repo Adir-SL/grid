@@ -112,9 +112,6 @@ body {
     :root{
       --wrapperSize: calc(100vw - 60px);
     }
-    #wrapper {
-      /* width: calc(100vw - 60px); */
-    }
     .grid-item {
       width: calc(var(--wrapperSize) / 2 - 20px - 48px);
       height: calc(var(--wrapperSize) / 2 - 20px - 48px);
