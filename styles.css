@@ -84,7 +84,7 @@ body {
     background-position: center;
     cursor: pointer;
   }
-  .iconCorner .icon:hover{
+  .action-icon:hover{
     background-color: #eee;
   }
   .arrow-h{
