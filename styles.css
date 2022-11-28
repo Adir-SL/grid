@@ -84,7 +84,7 @@ body {
     background-image: url(images/arrow-v.svg);
   }
   .color-picker{
-    overflow: hidden;
+    padding: 0;
   }
   .grid-item:hover .icon-corner{
     opacity: 1;
