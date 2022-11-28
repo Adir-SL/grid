@@ -86,8 +86,16 @@ body {
   .color-picker{
     width: 24px;
     height: 24px;
+    padding: 4px;
+    overflow: hidden;
+  }
+  .color-picker[type="color"]::-webkit-color-swatch-wrapper {
     padding: 0;
   }
+  .color-picker[type="color"]::-webkit-color-swatch {
+    border: none;
+  }
+
   .grid-item:hover .icon-corner{
     opacity: 1;
   }
