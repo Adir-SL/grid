@@ -12,5 +12,6 @@ function gridSizeV(event) {
   }
   
   function changeColor(event){
-    console.log(event.target.parentElement.parentElement)
+    console.log(event.target.value);
+    event.target.parentElement.parentElement.style.backgroundColor = event.target.value;
   }
