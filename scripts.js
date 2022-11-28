@@ -11,3 +11,6 @@ function gridSizeV(event) {
       '<div class="grid-item"><div class="icon-corner"><input type="color" class="action-icon color-picker" value="#ffffff" /><div class="action-icon arrow-v"></div><div class="action-icon arrow-h" onclick="gridSize(event);"></div></div></div>';
   }
   
+  function changeColor(event){
+    console.log(event.target.parentElement.parentElement)
+  }
