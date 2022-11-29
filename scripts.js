@@ -22,5 +22,5 @@ function gridSizeV(event) {
     event.target.parentElement.style.opacity = "0";
     setTimeout(function(){
       event.target.parentElement.outerHTML = "";
-  }, 1000);
+  }, 300);
   }
