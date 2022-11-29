@@ -86,7 +86,7 @@ body {
     background-image: url(images/arrow-v.svg);
   }
   .close-x{
-    border-image: url(images/close.svg);
+    background-image: url(images/close.svg);
     position: fixed;
     top: 16px;
     right: 16px;
