@@ -18,5 +18,6 @@ function gridSizeV(event) {
   }
 
   function removeItem(event){
-    event.target.parentElement.outerHTML = "";
+    event.target.parentElement.style.transform = "scaleY(0)";
+    // event.target.parentElement.outerHTML = "";
   }
