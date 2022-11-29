@@ -8,7 +8,7 @@ function gridSizeV(event) {
   
   function addtoGrid() {
     document.getElementById("wrapper").innerHTML +=
-      '<div class="grid-item"><div class="icon-corner"><input type="color" class="action-icon color-picker" value="#ffffff" /><div class="action-icon arrow-v"></div><div class="action-icon arrow-h" onclick="gridSize(event);"></div></div></div>';
+      '<div class="grid-item"><div class="icon-corner"><input type="color" class="action-icon color-picker" onchange="changeColor(event); value="#ffffff" /><div class="action-icon arrow-v"></div><div class="action-icon arrow-h" onclick="gridSize(event);"></div></div></div>';
   }
   
   function changeColor(event){
