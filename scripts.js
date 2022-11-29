@@ -19,5 +19,6 @@ function gridSizeV(event) {
 
   function removeItem(event){
     event.target.parentElement.style.height = "0";
+    event.target.parentElement.style.opacity = "0";
     // event.target.parentElement.outerHTML = "";
   }
