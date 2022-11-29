@@ -85,6 +85,9 @@ body {
   .arrow-v{
     background-image: url(images/arrow-v.svg);
   }
+  .close-x{
+    border-image: url(images/close.svg);
+  }
   .color-picker{
     width: 24px;
     height: 24px;
