@@ -54,10 +54,11 @@ body {
     height: calc(var(--wrapperSize) / 8 - 20px - 48px);
   }
   .icon-corner{
-    position: absolute;
+    position: fixed;
     display: flex;
-    right: 0;
-    bottom: 0;
+    /* right: 0;
+    bottom: 0; */
+    /* top: calc(100% - 40px); */
     padding: 8px;
     gap: 4px;
     opacity: 0;
