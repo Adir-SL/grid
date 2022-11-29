@@ -87,6 +87,9 @@ body {
   }
   .close-x{
     border-image: url(images/close.svg);
+    position: fixed;
+    top: 16px;
+    right: 16px;
   }
   .color-picker{
     width: 24px;
