@@ -18,5 +18,5 @@ function gridSizeV(event) {
   }
 
   function removeItem(event){
-
+    event.target.parentElement.outerHTML = "";
   }
