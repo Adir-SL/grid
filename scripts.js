@@ -23,7 +23,7 @@ function gridSizeV(event) {
     event.target.parentElement.style.opacity = "0";
     setTimeout(function(){
       event.target.parentElement.outerHTML = "";
-      document.getElementById("wrapper").innerHTML += '<button class="button-alert">Undo delete item</button>'
+      document.getElementById("wrapper").innerHTML += '<button class="button-alert" onclick="undo();">Undo delete item</button>'
   }, 350);
   }
 
