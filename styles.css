@@ -128,6 +128,12 @@ body {
     position: fixed;
     bottom: 40px;
     left: 40px;
+    padding: 8px 24px;
+    background: #333333;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 8px;
     animation: alertPop 300ms ease-out;
   }
   @keyframes alertPop{
