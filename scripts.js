@@ -22,6 +22,6 @@ function gridSizeV(event) {
     event.target.parentElement.style.opacity = "0";
     setTimeout(function(){
       event.target.parentElement.outerHTML = "";
-      window.cardForUndo = event.target.parentElement.outerHTML;
+      window.cardForUndo = document.getElementById("wrapper").innerHTML;
   }, 350);
   }
