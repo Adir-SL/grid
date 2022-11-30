@@ -134,7 +134,11 @@ body {
     border: none;
     outline: none;
     border-radius: 8px;
+    cursor: pointer;
     animation: alertPop 300ms ease-out;
+  }
+  .button-alert:hover{
+    background-color: #555555;
   }
   @keyframes alertPop{
     0%{bottom: 0;opacity: 0;}
