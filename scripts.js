@@ -18,10 +18,10 @@ function gridSizeV(event) {
   }
 
   function removeItem(event){
+    window.wrapperState = document.getElementById("wrapper").innerHTML;
     event.target.parentElement.style.height = "0";
     event.target.parentElement.style.opacity = "0";
     setTimeout(function(){
       event.target.parentElement.outerHTML = "";
-      window.wrapperState = document.getElementById("wrapper").innerHTML;
   }, 350);
   }
