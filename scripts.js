@@ -25,3 +25,7 @@ function gridSizeV(event) {
       event.target.parentElement.outerHTML = "";
   }, 350);
   }
+
+  function undo(){
+    document.getElementById("wrapper").innerHTML = window.wrapperState;
+  }
