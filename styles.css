@@ -124,6 +124,11 @@ body {
     background: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   }
+  .button-alert{
+    position: fixed;
+    bottom: 40px;
+    left: 40px;
+  }
   @media only screen and (max-width: 990px) {
     :root{
       --wrapperSize: calc(100vw - 60px);
