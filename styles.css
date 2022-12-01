@@ -144,7 +144,7 @@ body {
     background-image: url(images/undo.svg);
     background-repeat: no-repeat;
     background-size: 24px;
-    background-position: center 12px;
+    background-position: center 3px;
     border-radius: 8px;
   }
   .button-alert:hover{
