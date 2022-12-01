@@ -139,11 +139,7 @@ body {
   }
   .button-alert::before{
     content: '';
-    
-    width: 32px;
-    height: 32px;
-    top: 0;
-    left: 0;
+    padding: 8px;
     background-color: #333333;
     background-image: url(images/undo.svg);
     background-repeat: no-repeat;
