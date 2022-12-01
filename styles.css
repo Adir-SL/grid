@@ -144,7 +144,7 @@ body {
     height: 32px;
     top: 0;
     left: 0;
-    background-color: red;
+    background: #333333;
   }
   .button-alert:hover{
     background-color: #555555;
