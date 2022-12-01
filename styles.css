@@ -139,12 +139,12 @@ body {
   }
   .button-alert::before{
     content: '';
-    padding: 8px 32px;
+    padding: 8px 12px;
     margin-right: 12px;
     background-image: url(images/undo.svg);
     background-repeat: no-repeat;
     background-size: 24px;
-    background-position: center;
+    background-position: center 12px;
     border-radius: 8px;
   }
   .button-alert:hover{
