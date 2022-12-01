@@ -136,6 +136,8 @@ body {
     outline: none;
     border-radius: 8px;
     cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
     animation: alertPop 300ms ease-out;
   }
   .button-alert::before{
