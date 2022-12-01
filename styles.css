@@ -141,7 +141,6 @@ body {
     content: '';
     padding: 8px;
     margin-right: 12px;
-    background-color: #333333;
     background-image: url(images/undo.svg);
     background-repeat: no-repeat;
     background-size: 24px;
