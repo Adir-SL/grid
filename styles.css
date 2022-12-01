@@ -141,7 +141,7 @@ body {
     content: '';
     position: absolute;
     width: 40px;
-    height: 40px;
+    height: 32px;
     background-color: red;
   }
   .button-alert:hover{
