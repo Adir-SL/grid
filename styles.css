@@ -145,6 +145,7 @@ body {
     top: 0;
     left: 0;
     background: #333333;
+    border-radius: 8px;
   }
   .button-alert:hover{
     background-color: #555555;
