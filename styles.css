@@ -138,6 +138,7 @@ body {
     animation: alertPop 300ms ease-out;
   }
   .button-alert::before{
+    content: '';
     position: absolute;
     width: 40px;
     height: 40px;
