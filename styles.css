@@ -181,6 +181,8 @@ body {
       width: calc(var(--wrapperSize) / 1 - 8px - 16px);
     }
     #fab-button{
-      background-color: red;
+      font-size: 3em;
+      width: 60px;
+      height: 60px;
     }
   }
