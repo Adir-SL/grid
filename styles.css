@@ -173,6 +173,6 @@ body {
       height: calc(var(--wrapperSize) / 2 - 20px - 16px);
     }
     .double-width {
-      width: calc(var(--wrapperSize) / 1 - 20px - 48px);
+      width: calc(var(--wrapperSize) / 1 - 20px - 16px);
     }
   }
