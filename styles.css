@@ -180,4 +180,7 @@ body {
     .double-width {
       width: calc(var(--wrapperSize) / 1 - 8px - 16px);
     }
+    #fab-button{
+      background-color: red;
+    }
   }
