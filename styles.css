@@ -168,8 +168,9 @@ body {
       font-size: 13px;
     }
     .grid-item {
-      width: calc(var(--wrapperSize) / 2 - 20px - 48px);
-      height: calc(var(--wrapperSize) / 2 - 20px - 48px);
+      padding: 8px;
+      width: calc(var(--wrapperSize) / 2 - 20px - 16px);
+      height: calc(var(--wrapperSize) / 2 - 20px - 16px);
     }
     .double-width {
       width: calc(var(--wrapperSize) / 1 - 20px - 48px);
