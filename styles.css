@@ -22,6 +22,8 @@ body {
   }
   .grid-item {
     position: relative;
+    top: unset;
+    z-index: unset;
     width: calc(var(--wrapperSize) / 4 - 20px - 48px);
     height: calc(var(--wrapperSize) / 4 - 20px - 48px);
     margin: 10px;
