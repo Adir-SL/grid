@@ -37,6 +37,10 @@ function gridSizeV(event) {
   }, 350);
   }
 
+  function pinItem(event){
+    event.target.parentElement.style.position = "sticky";
+  }
+
   function undo(){
     document.getElementById("wrapper").innerHTML = window.wrapperState;
   }
