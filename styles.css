@@ -116,7 +116,7 @@ body {
     border-radius: 4px;
   }
 
-  .grid-item:hover .icon-corner, .grid-item:hover .close-x{
+  .grid-item:hover .icon-corner, .grid-item:hover .close-x, .grid-item:hover .pin{
     opacity: 1;
   }
   #fab-button {
