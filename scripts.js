@@ -38,9 +38,14 @@ function gridSizeV(event) {
   }
 
   function pinItem(event){
-    event.target.parentElement.style.position = "sticky";
-    event.target.parentElement.style.top = "0";
-    event.target.parentElement.style.zIndex = "99999";
+    // event.target.parentElement.style.position = "sticky";
+    // event.target.parentElement.style.top = "0";
+    // event.target.parentElement.style.zIndex = "99999";
+    if(event.target.parentElement.classList.contains("stickyItem") == true){
+      event.target.parentElement.classList.remove("stickyItem");
+    }else{
+      event.target.parentElement.classList.add("stickyItem");
+    }
   }
 
   function undo(){
