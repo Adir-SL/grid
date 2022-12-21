@@ -39,6 +39,7 @@ function gridSizeV(event) {
 
   function pinItem(event){
     event.target.parentElement.style.position = "sticky";
+    event.target.parentElement.style.top = "0";
   }
 
   function undo(){
