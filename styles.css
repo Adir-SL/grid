@@ -94,6 +94,14 @@ body {
     opacity: 0;
     transition: opacity 200ms linear 0s;
   }
+  .pin{
+    background-image: url(images/pin.svg);
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    opacity: 0;
+    transition: opacity 200ms linear 0s;
+  }
   .color-picker{
     width: 24px;
     height: 24px;
