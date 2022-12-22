@@ -1,17 +1,17 @@
 /* All icons are from Tabler Icons: https://tablericons.com */
 
 body {
-    display: flex;
-    inset: 0;
-    position: absolute;
-    margin: 0;
-    justify-content: center;
-    background-color: rgb(247, 247, 247);
-    font-family: 'Inter', sans-serif;
-    font-weight: 300;
-    line-height: 1.3;
-    font-size: 16px;
-    color: #333;
+  display: flex;
+  inset: 0;
+  position: absolute;
+  margin: 0;
+  justify-content: center;
+  background-color: rgb(247, 247, 247);
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  line-height: 1.3;
+  font-size: 16px;
+  color: #333;
 }
 :root{
   --wrapperSize: 1000px;
