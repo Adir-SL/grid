@@ -88,7 +88,7 @@ h3{
 .action-icon:hover{
   background-color: #eee;
 }
-.action-icon[tooltip]:hover::after{
+.action-icon[tooltip]::after{
   display: block;
   content: attr(tooltip);
   background: #333333;
@@ -98,6 +98,12 @@ h3{
   white-space: nowrap;
   top: 110%;
   border-radius: 8px;
+  opacity: 0;
+  transition: opacity 100ms linear 0ms;
+}
+.action-icon[tooltip]:hover::after{
+  opacity: 1;
+  transition: opacity 200ms linear 500ms;
 }
 .arrow-h{
   background-image: url(images/arrow-h.svg);
