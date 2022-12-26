@@ -91,7 +91,8 @@ h3{
 .action-icon::after{
   content: attr('tooltip');
   background: #333333;
-  
+  position: absolute;
+  padding: 4px;
 }
 .arrow-h{
   background-image: url(images/arrow-h.svg);
