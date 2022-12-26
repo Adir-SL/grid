@@ -122,6 +122,9 @@ h3{
 .stickyItem .pin{
   background-image: url(images/pinned.svg);
 }
+.stickyItem .pin::after{
+  content: 'Unpin item';
+}
 .pin{
   background-image: url(images/pin.svg);
   position: fixed;
