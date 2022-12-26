@@ -89,8 +89,9 @@ h3{
   background-color: #eee;
 }
 .action-icon::after{
-  content: attr('tooltip');
+  content: attr(tooltip);
   background: #333333;
+  color: #ffffff;
   position: absolute;
   padding: 4px;
 }
