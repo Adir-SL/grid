@@ -88,6 +88,11 @@ h3{
 .action-icon:hover{
   background-color: #eee;
 }
+.action-icon::after{
+  content: attr('tooltip');
+  background: #333333;
+  
+}
 .arrow-h{
   background-image: url(images/arrow-h.svg);
 }
