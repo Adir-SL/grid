@@ -91,7 +91,8 @@ h3{
 .action-icon[tooltip]::after{
   display: block;
   content: attr(tooltip);
-  background: #333333;
+  background: #000000;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3) inset;
   color: #ffffff;
   position: absolute;
   padding: 4px 12px;
