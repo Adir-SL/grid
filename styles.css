@@ -89,6 +89,7 @@ h3{
   background-color: #eee;
 }
 .action-icon[tooltip]:hover::after{
+  display: block;
   content: attr(tooltip);
   background: #333333;
   color: #ffffff;
@@ -97,9 +98,6 @@ h3{
   white-space: nowrap;
   top: 110%;
   border-radius: 4px;
-}
-.action-icon[tooltip]:hover::after::first-letter{
-  text-transform: uppercase;
 }
 .arrow-h{
   background-image: url(images/arrow-h.svg);
