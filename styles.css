@@ -94,10 +94,10 @@ h3{
   background: #333333;
   color: #ffffff;
   position: absolute;
-  padding: 4px 8px;
+  padding: 4px 12px;
   white-space: nowrap;
   top: 110%;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .arrow-h{
   background-image: url(images/arrow-h.svg);
