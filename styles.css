@@ -141,8 +141,8 @@ h3{
 .pin{
   background-image: url(images/pin.svg);
   position: fixed;
-  top: 8px;
-  left: 8px;
+  top: 16px;
+  left: 16px;
   opacity: 0;
   transition: opacity 200ms linear 0s;
 }
