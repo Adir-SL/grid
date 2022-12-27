@@ -165,8 +165,8 @@ h3{
 }
 #fab-button {
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 32px;
+  right: 32px;
   font-size: 1.5em;
   border-radius: 50%;
   width: 40px;
