@@ -42,7 +42,7 @@ body {
 .grid-item .content{
   position: absolute;
   width: calc(100% - 48px);
-  height: 100%;
+  height: calc(100% - 48px);
   overflow: auto;
   top: 0;
   left: 0;
