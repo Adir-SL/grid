@@ -118,6 +118,10 @@ h3{
   opacity: 1;
   transition: opacity 200ms linear 500ms;
 }
+.close-x[tooltip]::after{
+  left: unset;
+  right: 0;
+}
 .arrow-h{
   background-image: url(images/arrow-h.svg);
 }
