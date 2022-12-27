@@ -111,6 +111,7 @@ h3{
   top: 110%;
   border-radius: 8px;
   opacity: 0;
+  pointer-events: none;
   transition: opacity 100ms linear 0ms;
 }
 .action-icon[tooltip]:hover::after{
