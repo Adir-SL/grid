@@ -80,7 +80,7 @@ h3{
   display: flex;
   right: 0;
   bottom: 0;
-  padding: 8px;
+  padding: 16px;
   gap: 4px;
   opacity: 0;
   transition: opacity 200ms linear 0s;
