@@ -123,7 +123,7 @@ h3{
 .icon-corner .action-icon[tooltip]::after{
   right: 0;
   left: unset;
-  bottom: 80%;
+  bottom: 110%;
   top: unset;
 }
 .close-x[tooltip]::after{
