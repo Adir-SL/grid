@@ -119,6 +119,12 @@ h3{
   opacity: 1;
   transition: opacity 200ms linear 500ms;
 }
+.icon-corner .action-icon[tooltip]::after{
+  right: 0;
+  left: unset;
+  bottom: 110%;
+  top: unset;
+}
 .close-x[tooltip]::after{
   left: unset;
   right: 0;
