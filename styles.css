@@ -86,6 +86,7 @@ h3{
   transition: opacity 200ms linear 0s;
 }
 .action-icon{
+  position: relative;
   width: 16px;
   height: 16px;
   padding: 4px;
@@ -122,7 +123,7 @@ h3{
 .icon-corner .action-icon[tooltip]::after{
   right: 0;
   left: unset;
-  bottom: 110%;
+  bottom: 80%;
   top: unset;
 }
 .close-x[tooltip]::after{
