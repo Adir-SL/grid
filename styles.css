@@ -162,7 +162,7 @@ h3{
   width: 24px;
   height: 24px;
   padding: 4px;
-  overflow: hidden;
+  overflow: visible;
 }
 .color-picker[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
