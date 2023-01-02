@@ -178,6 +178,9 @@ h3{
 .grid-item:hover .icon-corner, .grid-item:hover .close-x, .grid-item:hover .pin{
   opacity: 1;
 }
+.grid-item:hover .icon-corner, .grid-item:hover .close-x, .grid-item:hover .pin{
+  opacity: 1;
+}
 #fab-button {
   position: fixed;
   bottom: 32px;
