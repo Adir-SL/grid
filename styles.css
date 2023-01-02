@@ -38,6 +38,8 @@ body {
   overflow: hidden;
   transform: translate3d(0,0,0);
   transition: all 300ms linear 0s;
+}
+.grid-new{
   animation: animateIn 300ms ease-out forwards;
 }
 @keyframes animateIn {
