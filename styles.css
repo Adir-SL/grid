@@ -186,7 +186,7 @@ h3{
   border: none;
   outline: none;
   cursor: pointer;
-  background: #ffffff;
+  background-color: #ffffff;
   z-index: 9999999;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
