@@ -41,7 +41,8 @@ body {
   animation: animateIn 300ms ease-out forwards;
 }
 @keyframes animateIn {
-  
+  0%{transform:scale(0);}
+  100%{transform:scale(1);}
 }
 .grid-item .content{
   position: absolute;
