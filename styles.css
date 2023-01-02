@@ -190,7 +190,9 @@ h3{
   z-index: 9999999;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
-#fab-button:hover{}
+#fab-button:hover{
+  background-color: #e1e1e1;
+}
 .button-alert{
   position: fixed;
   bottom: 40px;
