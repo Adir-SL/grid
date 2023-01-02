@@ -16,14 +16,6 @@ function gridSizeV(event) {
       elemDiv.innerHTML = '<div class="action-icon pin" tooltip="Pin to top" onclick="pinItem(event);"></div><div class="action-icon close-x" tooltip="Delete item" onclick="removeItem(event);"></div><div class="icon-corner"><input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" value="#ffffff" /><div class="action-icon arrow-v" tooltip="Change item height" onclick="gridSizeV(event);"></div><div class="action-icon arrow-h" tooltip="Change item width" onclick="gridSize(event);"></div></div><div class="content"></div>';
       document.getElementById("wrapper").appendChild(elemDiv);
   }
-
-  function removeNew(){
-    var x = document.getElementsByClassName("grid-item");
-    var i;
-    for (i = 0; i < x.length; i++) {
-      x[i].classList.remove("grid-new");
-    }
-  }
   
   function changeColor(event){
     console.log(event.target.value);
@@ -37,7 +29,7 @@ function gridSizeV(event) {
     event.target.parentElement.style.opacity = "0";
     setTimeout(function(){
       event.target.parentElement.outerHTML = "";
-      document.getElementById("wrapper").innerHTML += '<button class="button-alert" onclick="undo();">Undo delete item</button>'
+      // document.getElementById("wrapper").innerHTML += '<button class="button-alert" onclick="undo();">Undo delete item</button>'
 
       setTimeout(function(){
         var x = document.getElementsByClassName("button-alert");
