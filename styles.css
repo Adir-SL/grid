@@ -164,6 +164,7 @@ h3{
   padding: 4px;
   overflow: visible;
 }
+.color-picker:focus{}
 .color-picker[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
 }
