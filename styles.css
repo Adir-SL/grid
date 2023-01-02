@@ -178,7 +178,7 @@ h3{
 .grid-item:hover .icon-corner, .grid-item:hover .close-x, .grid-item:hover .pin{
   opacity: 1;
 }
-.grid-item:hover .icon-corner, .grid-item:hover .close-x, .grid-item:hover .pin{
+.grid-item:focus-within .icon-corner, .grid-item:focus-within .close-x, .grid-item:focus-within .pin{
   opacity: 1;
 }
 #fab-button {
