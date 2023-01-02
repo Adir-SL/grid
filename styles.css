@@ -166,7 +166,6 @@ h3{
 }
 .color-picker:focus{
   outline: none;
-  border: none;
 }
 .color-picker[type="color"]::-webkit-color-swatch-wrapper {
   padding: 0;
