@@ -193,6 +193,9 @@ h3{
 #fab-button:hover{
   background-color: #fafafa;
 }
+#fab-button:active{
+  background-color: #fafafa;
+}
 .button-alert{
   position: fixed;
   bottom: 40px;
