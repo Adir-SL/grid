@@ -8,12 +8,19 @@ function gridSizeV(event) {
   
   function addtoGrid() {
     document.getElementById("wrapper").innerHTML +=
-      '<div class="grid-item grid-new" onload="removeNew(event);"><div class="action-icon pin" tooltip="Pin to top" onclick="pinItem(event);"></div><div class="action-icon close-x" tooltip="Delete item" onclick="removeItem(event);"></div><div class="icon-corner"><input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" value="#ffffff" /><div class="action-icon arrow-v" tooltip="Change item height" onclick="gridSizeV(event);"></div><div class="action-icon arrow-h" tooltip="Change item width" onclick="gridSize(event);"></div></div><div class="content"></div></div>';
+      '<div class="grid-item grid-new"><div class="action-icon pin" tooltip="Pin to top" onclick="pinItem(event);"></div><div class="action-icon close-x" tooltip="Delete item" onclick="removeItem(event);"></div><div class="icon-corner"><input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" value="#ffffff" /><div class="action-icon arrow-v" tooltip="Change item height" onclick="gridSizeV(event);"></div><div class="action-icon arrow-h" tooltip="Change item width" onclick="gridSize(event);"></div></div><div class="content"></div></div>';
+      removeNew();
   }
 
   function removeNew(event){
     setInterval(function(){
-      event.target.classList.remove("grid-new");
+      var x = document.getElementsByClassName("grid-item");
+      var i;
+      for (i = 0; i < x.length; i++) {
+        if(x[i].classList.contains("grid-new") == true){
+          x[i].classList.remove("grid-new");
+        }
+      }
     }, 1000);
   }
   
