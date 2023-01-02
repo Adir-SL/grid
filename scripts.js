@@ -12,7 +12,7 @@ function gridSizeV(event) {
       removeNew();
   }
 
-  function removeNew(event){
+  function removeNew(){
     setInterval(function(){
       var x = document.getElementsByClassName("grid-item");
       var i;
