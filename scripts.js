@@ -21,7 +21,7 @@ function gridSizeV(event) {
           x[i].classList.remove("grid-new");
         }
       }
-    }, 200);
+    }, 300);
   }
   
   function changeColor(event){
