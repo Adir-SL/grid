@@ -35,8 +35,6 @@ function gridSizeV(event) {
       elemDiv.innerText = 'Undo delete item';
       document.getElementById("wrapper").appendChild(elemDiv);
 
-      // document.getElementById("wrapper").innerHTML += '<button class="button-alert" onclick="undo();">Undo delete item</button>'
-
       undoTimeOut = setTimeout(function () {
         var x = document.getElementsByClassName("button-alert");
         var i;
