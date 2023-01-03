@@ -37,14 +37,13 @@ function gridSizeV(event) {
 
       // document.getElementById("wrapper").innerHTML += '<button class="button-alert" onclick="undo();">Undo delete item</button>'
 
-      setTimeout(function(){
+      undoTimeOut = setTimeout(function () {
         var x = document.getElementsByClassName("button-alert");
         var i;
         for (i = 0; i < x.length; i++) {
-          x[i].outerHTML = '';
+          x[i].outerHTML = "";
         }
-
-    }, 5000);
+      }, 5000);
 
   }, 350);
   }
