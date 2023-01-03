@@ -58,5 +58,6 @@ function gridSizeV(event) {
   }
 
   function undo(){
+    clearTimeout(undoTimeOut);
     document.getElementById("wrapper").innerHTML = window.wrapperState;
   }
