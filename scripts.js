@@ -7,7 +7,6 @@ function gridSizeV(event) {
 }
   
   function addtoGrid() {
-
       var elemDiv = document.createElement('div');
       elemDiv.className = 'grid-item grid-new';
       elemDiv.innerHTML = '<div class="action-icon pin" tooltip="Pin to top" onclick="pinItem(event);"></div><div class="action-icon close-x" tooltip="Delete item" onclick="removeItem(event);"></div><div class="icon-corner"><input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" value="#ffffff" /><div class="action-icon arrow-v" tooltip="Change item height" onclick="gridSizeV(event);"></div><div class="action-icon arrow-h" tooltip="Change item width" onclick="gridSize(event);"></div></div><div class="content"></div>';
