@@ -17,6 +17,7 @@ function gridSizeV(event) {
     console.log(event.target.value);
     event.target.parentElement.parentElement.style.backgroundColor = event.target.value;
     console.log(event.target.value);
+    console.log(event.target)
   }
 
   function removeItem(event){
