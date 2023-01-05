@@ -16,9 +16,8 @@ function gridSizeV(event) {
   function changeColor(event){
     console.log(event.target.value);
     event.target.parentElement.parentElement.style.backgroundColor = event.target.value;
-    console.log(event.target.innerHTML);
     
-    event.target.innerHTML;
+    event.target.outerHTML = '<input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" value="#ff0000">';
   }
 
   function removeItem(event){
