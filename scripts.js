@@ -19,7 +19,8 @@ function gridSizeV(event) {
     
     event.target.outerHTML = '<input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" value="' + event.target.value + '">';
 
-    console.log(hexToRgb(event.target.value))
+    colorContrast = hexToRgb(event.target.value).r + hexToRgb(event.target.value).g + hexToRgb(event.target.value).b
+    console.log(colorContrast)
   }
 
   function removeItem(event){
