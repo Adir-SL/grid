@@ -21,6 +21,9 @@ function gridSizeV(event) {
 
     colorContrast = hexToRgb(event.target.value).r + hexToRgb(event.target.value).g + hexToRgb(event.target.value).b
     console.log(colorContrast)
+    if(colorContrast > 550){
+      event.target.parentElement.parentElement.style.color = "#ffffff";
+    }
   }
 
   function removeItem(event){
