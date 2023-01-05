@@ -21,6 +21,8 @@ function gridSizeV(event) {
     console.log(event.target);
     if(colorContrast < 255){
       event.target.parentElement.parentElement.style.color = "#ffffff";
+    }else{
+      event.target.parentElement.parentElement.style.color = "unset";
     }
     event.target.outerHTML = '<input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" value="' + event.target.value + '">';
   }
