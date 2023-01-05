@@ -19,7 +19,7 @@ function gridSizeV(event) {
     
     event.target.outerHTML = '<input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" value="' + event.target.value + '">';
 
-    colorContrast = hexToRgb(event.target.value).r + hexToRgb(event.target.value).g + hexToRgb(event.target.value).b
+    colorContrast = hexToRgb(event.target.value).r + hexToRgb(event.target.value).g + hexToRgb(event.target.value).b;
     console.log(event.target.parentElement)
     if(colorContrast < 255){
       event.target.parentElement.parentElement.style.color = "#ffffff";
