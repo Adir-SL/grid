@@ -78,7 +78,7 @@ h3{
   width: calc(var(--wrapperSize) / 2 - 20px - 48px);
 }
 .half-height{
-  height: 100%;
+  height: calc(var(--wrapperSize) / 8 - 20px - 48px);
 }
 .stickyItem{
   position: sticky;
