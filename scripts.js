@@ -2,6 +2,7 @@ function gridSize(event) {
   if(event.target.parentElement.parentElement.classList.contains("double-width") == true){
     event.target.parentElement.parentElement.classList.toggle("full-width");
   }else{
+
     event.target.parentElement.parentElement.classList.toggle("double-width");
   }
   }
