@@ -263,6 +263,9 @@ h3{
     width: calc(var(--wrapperSize) / 2 - 8px - 16px);
     height: calc(var(--wrapperSize) / 2 - 8px - 16px);
   }
+  .full-width {
+    width: calc(100% - 8px - 16px);
+  }
   .double-width {
     width: calc(var(--wrapperSize) / 1 - 8px - 16px);
   }
