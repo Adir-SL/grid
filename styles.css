@@ -74,6 +74,9 @@ h3{
 .double-width {
   width: calc(var(--wrapperSize) / 2 - 20px - 48px);
 }
+.full-width {
+  width: calc(var(--wrapperSize) / 2 - 20px - 48px);
+}
 .half-height{
   height: calc(var(--wrapperSize) / 8 - 20px - 48px);
 }
