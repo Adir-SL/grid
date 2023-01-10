@@ -3,7 +3,9 @@ function gridSize(event) {
     event.target.parentElement.parentElement.classList.toggle("full-width");
     event.target.parentElement.parentElement.classList.toggle("double-width");
   }else{
+    if(event.target.parentElement.parentElement.classList.contains("full-width") == true){
     event.target.parentElement.parentElement.classList.toggle("double-width");
+    }
   }
   }
 
