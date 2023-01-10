@@ -57,6 +57,7 @@ body {
   z-index: -1;
 }
 .content-img{
+  width: 100%;
   object-fit: cover;
 }
 h1, h2, h3{
