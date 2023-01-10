@@ -56,6 +56,9 @@ body {
   padding: 24px;
   z-index: -1;
 }
+.content-image{
+  object-fit: contain;
+}
 h1, h2, h3{
   pointer-events: none;
   font-weight: 600;
