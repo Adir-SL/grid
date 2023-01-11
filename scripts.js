@@ -23,7 +23,11 @@ function gridSizeV(event) {
   }
 
   function changeAllColors(){
-    
+    var x = document.querySelectorAll("input[type='color']");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].style.opacity = 0.2;
+    }
   }
   
   function changeColor(event){
