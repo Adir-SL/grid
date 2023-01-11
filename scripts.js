@@ -45,6 +45,7 @@ function gridSizeV(event) {
       event.target.parentElement.parentElement.style.color = "unset";
     }
     event.target.outerHTML = '<input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" value="' + event.target.value + '">';
+    clearTimeout(colorAll);
   }
 
   function removeItem(event){
