@@ -29,7 +29,7 @@ function gridSizeV(event) {
       x[i].style.opacity = 0.2;
       x[i].parentElement.parentElement.style.backgroundColor = x[i].value;
     }
-    setTimeout(function(){ alert("Hello"); }, 1000);
+    setTimeout(function(){ changeAllColors(); }, 1000);
   }
   
   function changeColor(event){
