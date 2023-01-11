@@ -28,7 +28,9 @@ function gridSizeV(event) {
     for (i = 0; i < x.length; i++) {
       x[i].parentElement.parentElement.style.backgroundColor = x[i].value;
     }
-    setTimeout(function(){ changeAllColors(); }, 500);
+    colorAll = setTimeout(function () {
+      changeAllColors();
+    }, 500);
   }
   
   function changeColor(event){
