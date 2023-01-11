@@ -35,7 +35,6 @@ function gridSizeV(event) {
   
   function changeColor(event){
     event.target.parentElement.parentElement.style.backgroundColor = event.target.value;
-
     colorContrast = hexToRgb(event.target.value).r + hexToRgb(event.target.value).g + hexToRgb(event.target.value).b;
 
     if(colorContrast < 255){
