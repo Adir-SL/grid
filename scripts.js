@@ -27,6 +27,7 @@ function gridSizeV(event) {
     var i;
     for (i = 0; i < x.length; i++) {
       x[i].style.opacity = 0.2;
+      x[i].parentElement.parentElement.style.backgroundColor = x[i].value;
     }
   }
   
