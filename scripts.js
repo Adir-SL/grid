@@ -30,7 +30,6 @@ function gridSizeV(event) {
     }
     colorAll = setTimeout(function () {
       changeAllColors();
-      console.log("colors changed");
     }, 500);
   }
   
