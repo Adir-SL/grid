@@ -65,6 +65,7 @@ body {
 }
 .grid-item:has(.content-img):hover{
   opacity: 0.5;
+  cursor: pointer;
 }
 h1, h2, h3{
   pointer-events: none;
