@@ -62,6 +62,7 @@ body {
   height: calc(100% - 48px);
   object-fit: cover;
   border-radius: 4px;
+  user-select: none;
 }
 .grid-item:has(.content-img):hover{
   box-shadow: 0 0 0 1px rgb(182, 182, 182), rgb(149 157 165 / 15%) 0px 3px 6px 0px;
