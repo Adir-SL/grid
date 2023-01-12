@@ -63,8 +63,8 @@ body {
   object-fit: cover;
   border-radius: 4px;
 }
-.grid-item:has(.content-img){
-  opacity: 0.2;
+.grid-item:has(.content-img):hover{
+  opacity: 0.5;
 }
 h1, h2, h3{
   pointer-events: none;
