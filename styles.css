@@ -63,7 +63,7 @@ body {
   object-fit: cover;
   border-radius: 4px;
 }
-.content:has(.content-img){
+.grid-item:has(.content-img){
   opacity: 0.2;
 }
 h1, h2, h3{
