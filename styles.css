@@ -63,6 +63,9 @@ body {
   object-fit: cover;
   border-radius: 4px;
 }
+.content:has(.content-img){
+  opacity: 0.2;
+}
 h1, h2, h3{
   pointer-events: none;
   font-weight: 600;
