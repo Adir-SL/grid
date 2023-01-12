@@ -67,6 +67,9 @@ body {
   box-shadow: 0 0 0 1px rgb(182, 182, 182), rgb(149 157 165 / 15%) 0px 3px 6px 0px;
   cursor: pointer;
 }
+.grid-item:has(.content-img):active{
+  opacity: 0.8;
+}
 h1, h2, h3{
   pointer-events: none;
   font-weight: 600;
