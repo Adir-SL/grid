@@ -97,3 +97,5 @@ function gridSizeV(event) {
       b: parseInt(result[3], 16)
     } : null;
   }
+
+  function imgFunc(event){}
