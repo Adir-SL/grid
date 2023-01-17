@@ -98,4 +98,6 @@ function gridSizeV(event) {
     } : null;
   }
 
-  function imgFunc(event){}
+  function imgFunc(event){
+    console.log(event.target);
+  }
