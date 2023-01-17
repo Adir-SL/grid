@@ -99,5 +99,6 @@ function gridSizeV(event) {
   }
 
   function imgFunc(event){
-    console.log(event.target);
+    // console.log(event.target);
+    event.target.parentElement.parentElement.style.visibility = "hidden";
   }
