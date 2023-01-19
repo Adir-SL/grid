@@ -265,6 +265,7 @@ h3{
   z-index: 1000000;
   transition: none;
   animation: overlayAnim 1000ms ease-in-out forwards;
+  animation-name: none;
 }
 
 @keyframes overlayAnim {
