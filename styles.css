@@ -265,6 +265,7 @@ h3{
   pointer-events: none;
   margin: 10px;
   margin-top: 0;
+  visibility: hidden;
   z-index: 1000000;
   transition: none;
   animation: overlayAnim 300ms ease-in-out forwards;
