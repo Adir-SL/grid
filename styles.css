@@ -255,6 +255,11 @@ h3{
 .button-alert:hover{
   background-color: #555555;
 }
+#overlay-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 @keyframes alertPop{
   0%{bottom: 0; opacity: 0;}
   5%{bottom: 40px; opacity: 1;}
