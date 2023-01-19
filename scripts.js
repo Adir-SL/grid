@@ -114,9 +114,13 @@ function gridSizeV(event) {
   }
 
   function closeOverlay(){
+    document.getElementById("overlay-img").style.transition = "all";
+    setTimeout(function(){
+      document.getElementById("overlay-img").style.animationName = "none";
     document.getElementById("overlay-img").style.top = window.imgForLater.offsetTop + "px";
     document.getElementById("overlay-img").style.left = window.imgForLater.offsetLeft + "px";
     document.getElementById("overlay-img").style.width = window.imgForLater.offsetWidth - 48 + "px";
     document.getElementById("overlay-img").style.height = window.imgForLater.offsetHeight - 48 + "px";
-    document.getElementById("overlay-img").style.animationName = "none";
+    // document.getElementById("overlay-img").style.animationName = "none";
+  }, 100);
   }
