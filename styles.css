@@ -267,7 +267,7 @@ h3{
   margin-top: 0;
   z-index: 1000000;
   transition: none;
-  animation: overlayAnim 1000ms ease-in-out forwards;
+  animation: overlayAnim 300ms ease-in-out forwards;
   animation-name: none;
 }
 
