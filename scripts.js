@@ -103,7 +103,7 @@ function gridSizeV(event) {
     document.getElementById("overlay-img").style.visibility = "visible";
     window.imgForLater = event.target.parentElement.parentElement;
     event.target.parentElement.parentElement.style.visibility = "hidden";
-    document.getElementById("overlay-img").style.top = event.target.parentElement.parentElement.offsetTop + "px";
+    document.getElementById("overlay-img").style.top = event.target.parentElement.parentElement.offsetTop - window.scrollY + "px";
     document.getElementById("overlay-img").style.left = event.target.parentElement.parentElement.offsetLeft + "px";
     document.getElementById("overlay-img").style.width = event.target.parentElement.parentElement.offsetWidth - 48 + "px";
     document.getElementById("overlay-img").style.height = event.target.parentElement.parentElement.offsetHeight - 48 + "px";
