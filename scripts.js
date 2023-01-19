@@ -119,6 +119,7 @@ function gridSizeV(event) {
     document.getElementById("overlay-img").style.height = "calc(90% - 48px)";
     document.getElementById("overlay-img").style.top = "calc(5% - 12px)";
     document.getElementById("overlay-img").style.left = "calc(5% - 12px)";
+    document.getElementById("overlay-img").style.pointerEvents = "none";
     window.imgForLater.style.opacity = "0";
     setTimeout(function(){
       window.imgForLater.style.visibility = "visible";
