@@ -264,7 +264,13 @@ h3{
   margin-top: 0;
   z-index: 1000000;
   transition: none;
+  animation: none 1000ms ease-in-out forwards;
 }
+
+@keyframes overlayAnim {
+  to{width: 90%; height: 90%;}
+}
+
 @keyframes alertPop{
   0%{bottom: 0; opacity: 0;}
   5%{bottom: 40px; opacity: 1;}
