@@ -100,6 +100,7 @@ function gridSizeV(event) {
 
   function imgFunc(event){
     // console.log(event.target);
+    window.imgForLater = event.target.parentElement.parentElement;
     event.target.parentElement.parentElement.style.visibility = "hidden";
     document.getElementById("overlay-img").style.top = event.target.parentElement.parentElement.offsetTop + "px";
     document.getElementById("overlay-img").style.left = event.target.parentElement.parentElement.offsetLeft + "px";
@@ -111,3 +112,5 @@ function gridSizeV(event) {
       document.getElementById("overlay-img").style.pointerEvents = "all";
   }, 100);
   }
+
+  function closeOverlay(){}
