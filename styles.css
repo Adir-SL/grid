@@ -71,6 +71,9 @@ body {
 .grid-item:has(.content-img):active{
   opacity: 0.8;
 }
+.grid-item#overlay-img:has(.content-img):active{
+  opacity: 1;
+}
 h1, h2, h3{
   pointer-events: none;
   font-weight: 600;
