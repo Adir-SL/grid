@@ -106,6 +106,7 @@ function gridSizeV(event) {
     document.getElementById("overlay-img").style.left = event.target.parentElement.parentElement.offsetLeft + "px";
     document.getElementById("overlay-img").style.width = event.target.parentElement.parentElement.offsetWidth - 48 + "px";
     document.getElementById("overlay-img").style.height = event.target.parentElement.parentElement.offsetHeight - 48 + "px";
+    document.getElementById("overlay-img").style.visibility = "visible";
     document.getElementById("overlay-img").style.animationName = "none";
     setTimeout(function(){
       document.getElementById("overlay-img").style.animationName = "overlayAnim";
