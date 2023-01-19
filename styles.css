@@ -275,7 +275,7 @@ h3{
   to{width: calc(90% - 48px); height: calc(90% - 48px); top: calc(5% - 12px); left: calc(5% - 12px);}
 }
 @keyframes removeOverlay{
-  to{top: -100%; opacity: 0;}
+  to{top: 100%; opacity: 0;}
 }
 
 @keyframes alertPop{
