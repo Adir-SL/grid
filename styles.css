@@ -269,7 +269,7 @@ h3{
 }
 
 @keyframes overlayAnim {
-  to{width: calc(90% - 48px); height: calc(90% - 48px); top: 5%; left: 5%;}
+  to{width: calc(90% - 48px); height: calc(90% - 48px); top: calc(5% - 12px); left: calc(5% - 12px);}
 }
 
 @keyframes alertPop{
