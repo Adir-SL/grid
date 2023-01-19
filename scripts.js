@@ -99,15 +99,16 @@ function gridSizeV(event) {
   }
 
   function imgFunc(event){
-    // console.log(event.target);
+    console.log(event.target.src);
+    document.getElementById("overlay-img").style.visibility = "visible";
     window.imgForLater = event.target.parentElement.parentElement;
     event.target.parentElement.parentElement.style.visibility = "hidden";
     document.getElementById("overlay-img").style.top = event.target.parentElement.parentElement.offsetTop + "px";
     document.getElementById("overlay-img").style.left = event.target.parentElement.parentElement.offsetLeft + "px";
     document.getElementById("overlay-img").style.width = event.target.parentElement.parentElement.offsetWidth - 48 + "px";
     document.getElementById("overlay-img").style.height = event.target.parentElement.parentElement.offsetHeight - 48 + "px";
-    document.getElementById("overlay-img").style.visibility = "visible";
     document.getElementById("overlay-img").style.animationName = "none";
+    document.getElementById("overlay-img").getElementsByClassName("content-img")[0].src = event.target.src;
     setTimeout(function(){
       document.getElementById("overlay-img").style.animationName = "overlayAnim";
       document.getElementById("overlay-img").style.pointerEvents = "all";
