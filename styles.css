@@ -260,6 +260,7 @@ h3{
   top: 0;
   left: 0;
   pointer-events: none;
+  margin: 0;
   z-index: 1000000;
 }
 @keyframes alertPop{
