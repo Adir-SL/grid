@@ -119,13 +119,9 @@ function gridSizeV(event) {
     document.getElementById("overlay-img").style.height = "calc(90% - 48px)";
     document.getElementById("overlay-img").style.top = "calc(5% - 12px)";
     document.getElementById("overlay-img").style.left = "calc(5% - 12px)";
-    // width: calc(90% - 48px); height: calc(90% - 48px); top: calc(5% - 12px); left: calc(5% - 12px)
+    window.imgForLater.style.opacity = "0";
     setTimeout(function(){
-      // document.getElementById("overlay-img").style.animationName = "removeOvelay";
-    // document.getElementById("overlay-img").style.top = window.imgForLater.offsetTop + "px";
-    // document.getElementById("overlay-img").style.left = window.imgForLater.offsetLeft + "px";
-    // document.getElementById("overlay-img").style.width = window.imgForLater.offsetWidth - 48 + "px";
-    // document.getElementById("overlay-img").style.height = window.imgForLater.offsetHeight - 48 + "px";
-    // document.getElementById("overlay-img").style.animationName = "none";
-  }, 10);
+      window.imgForLater.style.visibility = "visible";
+      window.imgForLater.style.opacity = "1";
+  }, 100);
   }
