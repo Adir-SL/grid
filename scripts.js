@@ -114,7 +114,12 @@ function gridSizeV(event) {
   }
 
   function closeOverlay(){
-    document.getElementById("overlay-img").style.animationName = "removeOvelay";
+    document.getElementById("overlay-img").style.animationName = "removeOverlay";
+    document.getElementById("overlay-img").style.width = "calc(90% - 48px)";
+    document.getElementById("overlay-img").style.height = "calc(90% - 48px)";
+    document.getElementById("overlay-img").style.top = "calc(5% - 12px)";
+    document.getElementById("overlay-img").style.left = "calc(5% - 12px)";
+    // width: calc(90% - 48px); height: calc(90% - 48px); top: calc(5% - 12px); left: calc(5% - 12px)
     setTimeout(function(){
       // document.getElementById("overlay-img").style.animationName = "removeOvelay";
     // document.getElementById("overlay-img").style.top = window.imgForLater.offsetTop + "px";
