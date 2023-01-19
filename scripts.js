@@ -101,4 +101,6 @@ function gridSizeV(event) {
   function imgFunc(event){
     // console.log(event.target);
     event.target.parentElement.parentElement.style.visibility = "hidden";
+    document.getElementById("overlay-img").style.top = event.target.parentElement.parentElement.offsetTop + "px";
+    document.getElementById("overlay-img").style.left = event.target.parentElement.parentElement.offsetLeft + "px";
   }
