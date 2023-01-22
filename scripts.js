@@ -111,7 +111,7 @@ function gridSizeV(event) {
     setTimeout(function(){
       document.getElementById("overlay-img").style.animationName = "overlayAnim";
       document.getElementById("overlay-img").style.pointerEvents = "all";
-  }, 100);
+  }, 10);
   }
 
   function closeOverlay(){
