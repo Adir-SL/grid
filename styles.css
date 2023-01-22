@@ -269,12 +269,12 @@ h3{
   z-index: 1000000;
   transition: none;
   transform: rotateY(0deg);
-  animation: overlayAnim 1000ms ease-in-out forwards;
+  animation: overlayAnim 300ms ease-in-out forwards;
   animation-name: none;
 }
 
 @keyframes overlayAnim {
-  to{width: calc(90% - 48px); height: calc(90% - 48px); top: calc(5% - 12px); left: calc(5% - 12px); transform: rotateY(360deg);}
+  to{width: calc(90% - 48px); height: calc(90% - 48px); top: calc(5% - 12px); left: calc(5% - 12px); box-shadow: 0 0 0 10% black;}
 }
 @keyframes removeOverlay{
   to{top: 100%; opacity: 0;}
