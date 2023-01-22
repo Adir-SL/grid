@@ -274,7 +274,7 @@ h3{
 }
 
 @keyframes overlayAnim {
-  to{width: calc(90% - 48px); height: calc(90% - 48px); top: calc(5% - 12px); left: calc(5% - 12px); box-shadow: 0 0 0 10% black;}
+  to{width: calc(90% - 48px); height: calc(90% - 48px); top: calc(5% - 12px); left: calc(5% - 12px); box-shadow: 0 12px 40px 20px #00000033;}
 }
 @keyframes removeOverlay{
   to{top: 100%; opacity: 0;}
