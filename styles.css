@@ -326,7 +326,7 @@ h3{
     width: 60px;
     height: 60px;
   }
-  @keyframes overlayAnim {
-    to{width: calc(90% - 12px); height: calc(90% - 12px); top: calc(5% - 12px); left: calc(5% - 12px); box-shadow: 0 0 0 1px rgb(182 182 182), 0 12px 40px 20px #00000022;}
+  #overlay-img{
+    --bigOverlayMargin: 12px;
   }
 }
