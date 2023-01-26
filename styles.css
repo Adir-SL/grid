@@ -273,6 +273,7 @@ h3{
   animation-name: none;
   cursor: default;
   overflow: visible;
+  --bigOverlayMargin: 48px;
 }
 #overlay-img::before{
   content: '';
