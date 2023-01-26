@@ -329,4 +329,7 @@ h3{
   #overlay-img{
     --bigOverlayMargin: 12px;
   }
+  #overlay-img .action-icon{
+    opacity: 1;
+  }
 }
