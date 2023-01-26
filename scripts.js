@@ -116,8 +116,8 @@ function gridSizeV(event) {
 
   function closeOverlay(){
     document.getElementById("overlay-img").style.animationName = "removeOverlay";
-    document.getElementById("overlay-img").style.width = "calc(90% - 48px)";
-    document.getElementById("overlay-img").style.height = "calc(90% - 48px)";
+    document.getElementById("overlay-img").style.width = "calc(90% - var(--bigOverlayMargin))";
+    document.getElementById("overlay-img").style.height = "calc(90% - var(--bigOverlayMargin))";
     document.getElementById("overlay-img").style.top = "calc(5% - 12px)";
     document.getElementById("overlay-img").style.left = "calc(5% - 12px)";
     document.getElementById("overlay-img").style.pointerEvents = "none";
