@@ -23,9 +23,6 @@ body {
   height: 100%;
   width: var(--wrapperSize);
   padding: 20px;
-  top: 0;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
 }
 .grid-item {
   position: relative;
