@@ -332,4 +332,7 @@ h3{
   #overlay-img .action-icon{
     opacity: 1;
   }
+  .button-alert{
+    left: 24px;
+  }
 }
