@@ -25,7 +25,7 @@ function gridSizeV(event) {
   }
 
   function scrollFunc(z){
-    console.log(z)
+    
   }
 
   function changeAllColors(){
