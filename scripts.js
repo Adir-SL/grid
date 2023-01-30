@@ -16,7 +16,6 @@ function gridSizeV(event) {
 }
   
   function addtoGrid() {
-      // window.scrollTo(0,document.body.scrollHeight);
       scrollFunc();
   }
 
