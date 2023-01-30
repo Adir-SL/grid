@@ -28,7 +28,7 @@ function gridSizeV(event) {
     setTimeout(function(){
       window.scrollTo(0,document.documentElement.scrollTop+10)
       scrollFunc();
-  }, 100);
+  }, 10);
   }
 
   function changeAllColors(){
