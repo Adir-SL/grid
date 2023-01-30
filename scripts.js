@@ -24,6 +24,10 @@ function gridSizeV(event) {
       scrollFunc(20);
   }
 
+  function scrollFunc(z){
+    console.log(z)
+  }
+
   function changeAllColors(){
     var x = document.querySelectorAll("input[type='color']");
     var i;
