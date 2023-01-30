@@ -26,7 +26,7 @@ function gridSizeV(event) {
 
   function scrollFunc(){
     setTimeout(function(){
-      window.scrollTo(0,document.documentElement.scrollTop+10)
+      window.scrollTo(0,document.documentElement.scrollTop+50)
       scrollFunc();
   }, 10);
   }
