@@ -111,6 +111,8 @@ function gridSizeV(event) {
     } : null;
   }
 
+  function imgHover(event){}
+
   function imgFunc(event){
     document.getElementById("overlay-img").style.visibility = "visible";
     window.imgForLater = event.target.parentElement.parentElement;
