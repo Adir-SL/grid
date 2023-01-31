@@ -124,7 +124,7 @@ function gridSizeV(event) {
     document.getElementById("overlay-img").style.top = event.target.parentElement.parentElement.getBoundingClientRect().top + "px";
     document.getElementById("overlay-img").style.left = event.target.parentElement.parentElement.getBoundingClientRect().left - 10 + "px";
     document.getElementById("overlay-img").style.width = event.target.parentElement.parentElement.offsetWidth - bigMargin + "px";
-    console.log(event.target.parentElement.parentElement.offsetWidth - bigMargin + "px";)
+    console.log(event.target.parentElement.parentElement.offsetWidth - bigMargin + "px")
     document.getElementById("overlay-img").style.height = event.target.parentElement.parentElement.offsetHeight - bigMargin + "px";
     document.getElementById("overlay-img").style.animationName = "none";
     document.getElementById("overlay-img").getElementsByClassName("content-img")[0].src = event.target.src;
