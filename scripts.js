@@ -116,6 +116,7 @@ function gridSizeV(event) {
   }
 
   function imgFunc(event){
+    bigMargin = getComputedStyle(document.getElementById("overlay-img")).getPropertyValue('--bigOverlayMargin');
     document.getElementById("overlay-img").style.visibility = "visible";
     window.imgForLater = event.target.parentElement.parentElement;
     event.target.parentElement.parentElement.style.visibility = "hidden";
