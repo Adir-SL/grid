@@ -111,7 +111,9 @@ function gridSizeV(event) {
     } : null;
   }
 
-  function imgHover(event){}
+  function imgHover(event){
+    document.getElementById("overlay-img").getElementsByClassName("content-img")[0].src = event.target.src;
+  }
 
   function imgFunc(event){
     document.getElementById("overlay-img").style.visibility = "visible";
