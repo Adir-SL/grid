@@ -339,13 +339,13 @@ h3{
 @media (prefers-color-scheme: dark) {
   body{
     color: #ffffff;
-    background-color: #000000;
+    background-color: #333333;
   }
   .grid-item{
-    background-color: #333333;
+    background-color: #000000;
     box-shadow: 0 0 0 1px rgb(97, 97, 97), rgba(149, 157, 165, 0.15) 0px 3px 6px 0px;
   }
   .action-icon{
-    background-color: #333333;
+    filter: invert(100%);
   }
 }
