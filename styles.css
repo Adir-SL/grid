@@ -359,9 +359,7 @@ h3{
     background-color: #ffffff;
     color: #333333;
   }
-  .button-alert::before{
-    background-image: url(images/undo-dark.svg);
-  }
+  
   .button-alert:hover{
     background-color: #dddddd;
   }
