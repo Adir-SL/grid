@@ -156,7 +156,8 @@ h3{
 }
 .close-x[tooltip]::after{
   left: unset;
-  right: 0;
+  right: 28px;
+  top: 0;
 }
 .arrow-h{
   background-image: url(images/arrow-h.svg);
