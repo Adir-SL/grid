@@ -347,7 +347,5 @@ h3{
   }
   .action-icon{
     /* filter: invert(100%); */
-    backdrop-filter: invert(100%);
-    -webkit-backdrop-filter: invert(100%);
   }
 }
