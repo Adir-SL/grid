@@ -345,5 +345,7 @@ h3{
     background-color: #333333;
     box-shadow: 0 0 0 1px rgb(97, 97, 97), rgba(149, 157, 165, 0.15) 0px 3px 6px 0px;
   }
-  .action-icon{}
+  .action-icon{
+    background-color: #333333;
+  }
 }
