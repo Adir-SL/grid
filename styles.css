@@ -355,4 +355,6 @@ h3{
   .action-icon::after{
     filter: invert(100%);
   }
+  .button-alert{
+  }
 }
