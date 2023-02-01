@@ -256,9 +256,7 @@ h3{
   background-position: center;
   border-radius: 8px;
 }
-.button-alert:hover{
-  background-color: #555555;
-}
+
 #overlay-img{
   position: fixed;
   top: 0;
