@@ -360,7 +360,7 @@ h3{
     color: #333333;
   }
   .button-alert::before{
-    background-image: url(images/undo.svg);
+    background-image: url(images/undo-dark.svg);
   }
   .button-alert:hover{
     background-color: #dddddd;
