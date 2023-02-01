@@ -356,5 +356,7 @@ h3{
     filter: invert(100%);
   }
   .button-alert{
+    background-color: #ffffff;
+    color: #333333;
   }
 }
