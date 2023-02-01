@@ -246,6 +246,9 @@ h3{
   font-weight: 300;
   animation: alertPop 5000ms ease-out forwards;
 }
+.button-alert:hover{
+  background-color: #555555;
+}
 .button-alert::before{
   content: '';
   padding: 8px 12px;
@@ -256,7 +259,6 @@ h3{
   background-position: center;
   border-radius: 8px;
 }
-
 #overlay-img{
   position: fixed;
   top: 0;
