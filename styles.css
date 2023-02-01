@@ -336,3 +336,5 @@ h3{
     left: 24px;
   }
 }
+@media (prefers-color-scheme: dark) {
+}
