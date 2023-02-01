@@ -353,4 +353,5 @@ h3{
     /* filter: invert(100%); */
     background-color: #666666;
   }
+  .action-icon::after{}
 }
