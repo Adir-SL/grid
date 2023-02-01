@@ -342,7 +342,6 @@ h3{
   }
   .grid-item{
     background-color: #333333;
-    color: #ffffff;
     box-shadow: 0 0 0 1px rgb(97, 97, 97), rgba(149, 157, 165, 0.15) 0px 3px 6px 0px;
   }
 }
