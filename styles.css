@@ -347,5 +347,10 @@ h3{
   }
   .action-icon{
     /* filter: invert(100%); */
+    background-color: #333333;
+  }
+  .action-icon:hover{
+    /* filter: invert(100%); */
+    background-color: #666666;
   }
 }
