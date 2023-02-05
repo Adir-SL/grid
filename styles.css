@@ -365,4 +365,10 @@ h3{
   .button-alert::before{
     background-image: url(images/undo-dark.svg);
   }
+  .stickyItem .pin{
+    background-image: url(images/pinned.svg);
+  }
+  .pin{
+    background-image: url(images/pin.svg);
+  }
 }
