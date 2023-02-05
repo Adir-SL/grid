@@ -371,4 +371,7 @@ h3{
   .pin{
     background-image: url(images/pin-dark.svg);
   }
+  .close-x{
+    background-image: url(images/close.svg);
+  }
 }
