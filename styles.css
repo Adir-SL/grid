@@ -374,4 +374,10 @@ h3{
   .close-x{
     background-image: url(images/close-dark.svg);
   }
+  .arrow-h{
+    background-image: url(images/arrow-h.svg);
+  }
+  .arrow-v{
+    background-image: url(images/arrow-v.svg);
+  }
 }
