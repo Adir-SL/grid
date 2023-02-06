@@ -64,15 +64,6 @@ body {
   border-radius: 4px;
   user-select: none;
 }
-.content-img::before{
-  content: '';
-  position: absolute;
-  width: 150%;
-  height: 150%;
-  background-color: red;
-  top: -25%;
-  left: -25%;
-}
 .grid-item:has(.content-img):hover{
   box-shadow: 0 0 0 1px rgb(182, 182, 182), rgb(149 157 165 / 15%) 0px 3px 6px 0px;
   cursor: pointer;
