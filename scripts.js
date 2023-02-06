@@ -100,6 +100,7 @@ function gridSizeV(event) {
   function undo(){
     clearTimeout(undoTimeOut);
     document.getElementById("wrapper").innerHTML = window.wrapperState;
+    document.getElementById("overlay-img").style.visibility = "hidden";
   }
 
   function hexToRgb(hex) {
