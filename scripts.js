@@ -43,6 +43,7 @@ function gridSizeV(event) {
       // window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color')
       tempColor = rgbToHex(window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color'));
       x[i].value = tempColor;
+      alert(tempColor)
       colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
       
       if(colorContrast < 255){
