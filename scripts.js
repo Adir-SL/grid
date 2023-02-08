@@ -48,7 +48,7 @@ function gridSizeV(event) {
       tempG = tempColor.slice(0,tempColor.indexOf(','));
       tempColor = tempColor.slice(tempColor.indexOf(',')+2);
       tempB = tempColor;
-      rgbToHex();
+      rgbToHex(Number(tempR), Number(tempG), Number(tempB));
       x[i].value = tempColor;
       colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
       
