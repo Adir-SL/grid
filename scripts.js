@@ -39,7 +39,9 @@ function gridSizeV(event) {
     var x = document.querySelectorAll("input[type='color']");
     var i;
     for (i = 0; i < x.length; i++) {
-      x[i].parentElement.parentElement.style.backgroundColor = x[i].value;
+      alert(window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color'));
+      // window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color')
+      x[i].value = window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color');
       colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
       
       if(colorContrast < 255){
@@ -48,6 +50,10 @@ function gridSizeV(event) {
         x[i].parentElement.parentElement.style.color = "unset";
       }
     }
+  }
+
+  function rgbToHex(r,g,b) {
+    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
   }
 
   function changeAllColors(){
