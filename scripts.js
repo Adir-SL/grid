@@ -36,7 +36,18 @@ function gridSizeV(event) {
   }
 
   function setAllColors(){
-    
+    var x = document.querySelectorAll("input[type='color']");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      x[i].parentElement.parentElement.style.backgroundColor = x[i].value;
+      colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
+      
+      if(colorContrast < 255){
+        x[i].parentElement.parentElement.style.color = "#ffffff";
+      }else{
+        x[i].parentElement.parentElement.style.color = "unset";
+      }
+    }
   }
 
   function changeAllColors(){
