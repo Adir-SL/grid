@@ -41,9 +41,9 @@ function gridSizeV(event) {
     for (i = 0; i < x.length; i++) {
       // alert(window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color'));
       // window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color')
-      tempColor = rgbToHex(window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color'));
+      tempColor = window.getComputedStyle(x[i].parentElement.parentElement ,null).getPropertyValue('background-color');
+      rgbToHex(tempColor.slice(4,-1));
       x[i].value = tempColor;
-      alert(tempColor)
       colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
       
       if(colorContrast < 255){
