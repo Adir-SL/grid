@@ -35,6 +35,10 @@ function gridSizeV(event) {
   }, 10);
   }
 
+  function setAllColors(){
+    
+  }
+
   function changeAllColors(){
     var x = document.querySelectorAll("input[type='color']");
     var i;
