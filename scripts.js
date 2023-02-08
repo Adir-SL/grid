@@ -39,8 +39,6 @@ function gridSizeV(event) {
     var x = document.querySelectorAll("input[type='color']");
     var i;
     for (i = 0; i < x.length; i++) {
-      // alert(window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color'));
-      // window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color')
       tempColor = window.getComputedStyle(x[i].parentElement.parentElement ,null).getPropertyValue('background-color');
       tempColor = tempColor.slice(4,-1);
       tempR = tempColor.slice(0,tempColor.indexOf(','));
