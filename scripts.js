@@ -56,6 +56,9 @@ function gridSizeV(event) {
         x[i].parentElement.parentElement.style.color = "unset";
       }
     }
+    colorAll = setTimeout(function () {
+      changeAllColors();
+    }, 100);
   }
 
   function rgbToHex(r, g, b) {
