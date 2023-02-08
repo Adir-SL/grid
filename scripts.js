@@ -39,9 +39,10 @@ function gridSizeV(event) {
     var x = document.querySelectorAll("input[type='color']");
     var i;
     for (i = 0; i < x.length; i++) {
-      alert(window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color'));
+      // alert(window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color'));
       // window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color')
-      x[i].value = window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color');
+      tempColor = rgbToHex(window.getComputedStyle( x[i].parentElement.parentElement ,null).getPropertyValue('background-color'));
+      x[i].value = tempColor;
       colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
       
       if(colorContrast < 255){
@@ -52,13 +53,8 @@ function gridSizeV(event) {
     }
   }
 
-  function componentToHex(c) {
-    var hex = c.toString(16);
-    return hex.length == 1 ? "0" + hex : hex;
-  }
-
-  function rgbToHex(r,g,b) {
-    return "#" + componentToHex(r) + componentToHex(g) + componentToHex(b);
+  function rgbToHex(r, g, b) {
+    return "#" + (1 << 24 | r << 16 | g << 8 | b).toString(16).slice(1);
   }
 
   function changeAllColors(){
