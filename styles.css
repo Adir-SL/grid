@@ -71,7 +71,7 @@ body {
 .grid-item:has(.content-img):hover{
   box-shadow: 0 0 0 1px rgb(182, 182, 182), rgb(149 157 165 / 15%) 0px 3px 6px 0px;
 }
-.grid-item:has(.content-img):active{
+.content-img:active{
   opacity: 0.8;
 }
 .grid-item#overlay-img:has(.content-img):active{
