@@ -74,7 +74,7 @@ body {
 .content-img:active{
   opacity: 0.8;
 }
-.grid-item#overlay-img:has(.content-img):active{
+.grid-item#overlay-img .content-img:active{
   opacity: 1;
 }
 h1, h2, h3{
