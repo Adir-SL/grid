@@ -57,7 +57,6 @@ function gridSizeV(event) {
         x[i].style.backgroundColor = "#ffffff";
       }
     }
-    setAllColors();
   }
 
   window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
