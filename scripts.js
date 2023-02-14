@@ -60,7 +60,7 @@ function gridSizeV(event) {
     }
     setTimeout(function(){
     setAllColors();
-    }, 500);
+    }, 100);
   }
 
   window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
