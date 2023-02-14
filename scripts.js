@@ -78,14 +78,6 @@ function gridSizeV(event) {
       tempB = tempColor;
       tempHex = rgbToHex(Number(tempR), Number(tempG), Number(tempB));
       x[i].value = tempHex;
-      // if(tempR == 255 && tempB == 255 && tempG == 255){
-      //   console.log("white");
-      //   x[i].value = "#333333";
-      // }
-      // if(tempR == 51 && tempB == 51 && tempG == 51){
-      //   console.log("dark");
-      //   x[i].value = "#ffffff";
-      // }
 
       colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
       
