@@ -59,7 +59,7 @@ function gridSizeV(event) {
       }
     }
     setTimeout(function(){
-    setAllColors();
+      setAllColors();
     }, 500);
   }
 
