@@ -35,8 +35,10 @@ function gridSizeV(event) {
   }, 10);
   }
 
+  function changeTheme(){}
+
   window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
-    console.log('changed');
+    changeTheme();
   });
 
   function setAllColors(){
