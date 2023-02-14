@@ -52,10 +52,11 @@ function gridSizeV(event) {
         console.log("white");
         x[i].style.backgroundColor = "#333333";
       }else{
-      if(tempR == 51 && tempB == 51 && tempG == 51){
-        console.log("dark");
-        x[i].style.backgroundColor = "#ffffff";
-      }}
+        if(tempR == 51 && tempB == 51 && tempG == 51){
+          console.log("dark");
+          x[i].style.backgroundColor = "#ffffff";
+        }
+      }
     }
   }
 
