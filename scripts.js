@@ -35,6 +35,10 @@ function gridSizeV(event) {
   }, 10);
   }
 
+  window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+    console.log('changed');
+  });
+
   function setAllColors(){
     var x = document.querySelectorAll("input[type='color']");
     var i;
