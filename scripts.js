@@ -35,7 +35,29 @@ function gridSizeV(event) {
   }, 10);
   }
 
-  function changeTheme(){}
+  function changeTheme(){
+    var x = document.querySelectorAll(".grid-item");
+    var i;
+    for (i = 0; i < x.length; i++) {
+      tempColor = window.getComputedStyle(x[i] ,null).getPropertyValue('background-color');
+      tempColor = tempColor.slice(4,-1);
+      tempR = tempColor.slice(0,tempColor.indexOf(','));
+      tempColor = tempColor.slice(tempColor.indexOf(',')+2);
+      tempG = tempColor.slice(0,tempColor.indexOf(','));
+      tempColor = tempColor.slice(tempColor.indexOf(',')+2);
+      tempB = tempColor;
+      tempHex = rgbToHex(Number(tempR), Number(tempG), Number(tempB));
+      x[i].value = tempHex;
+      if(tempR == 255 && tempB == 255 && tempG == 255){
+        console.log("white");
+        x[i].value = "#333333";
+      }
+      if(tempR == 51 && tempB == 51 && tempG == 51){
+        console.log("dark");
+        x[i].value = "#ffffff";
+      }
+    }
+  }
 
   window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
     changeTheme();
