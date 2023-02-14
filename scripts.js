@@ -53,7 +53,8 @@ function gridSizeV(event) {
         x[i].value = "#333333";
       }
       if(tempR == 51 && tempB == 51 && tempG == 51){
-        console.log("dark")
+        console.log("dark");
+        x[i].value = "#ffffff";
       }
 
       colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
