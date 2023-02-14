@@ -58,7 +58,9 @@ function gridSizeV(event) {
         }
       }
     }
+    setTimeout(function(){
     setAllColors();
+    }, 500);
   }
 
   window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
