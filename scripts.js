@@ -86,7 +86,7 @@ function gridSizeV(event) {
       if(colorContrast < 255){
         x[i].parentElement.parentElement.style.color = "#ffffff";
       }else{
-        x[i].parentElement.parentElement.style.color = "unset";
+        x[i].parentElement.parentElement.style.color = "#333333";
       }
     }
   }
