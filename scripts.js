@@ -50,11 +50,11 @@ function gridSizeV(event) {
       x[i].value = tempHex;
       if(tempR == 255 && tempB == 255 && tempG == 255){
         x[i].style.backgroundColor = "#333333";
-        window.mode = "light";
+        // window.mode = "light";
       }else{
         if(tempR == 51 && tempB == 51 && tempG == 51){
           x[i].style.backgroundColor = "#ffffff";
-          window.mode = "dark";
+          // window.mode = "dark";
         }
       }
     }
