@@ -126,7 +126,7 @@ function gridSizeV(event) {
     if(colorContrast < 255){
       event.target.parentElement.parentElement.style.color = "#ffffff";
     }else{
-      event.target.parentElement.parentElement.style.color = "unset";
+      event.target.parentElement.parentElement.style.color = "#333333";
     }
     event.target.outerHTML = '<input type="color" tooltip="Change color" class="action-icon color-picker" onchange="changeColor(event);" onclick="changeAllColors();" value="' + event.target.value + '">';
     clearTimeout(colorAll);
