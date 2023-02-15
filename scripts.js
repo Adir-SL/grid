@@ -103,6 +103,9 @@ function gridSizeV(event) {
         }
       }
     }
+    setTimeout(function(){
+      setAllColors();
+    }, 500);
   }
 
   function rgbToHex(r, g, b) {
