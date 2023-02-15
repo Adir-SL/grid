@@ -90,9 +90,17 @@ function gridSizeV(event) {
       colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
       
       if(colorContrast < 255){
-        x[i].parentElement.parentElement.style.color = "#ffffff";
+        if(window.mode == "light"){
+          x[i].parentElement.parentElement.style.color = "#ffffff";
+        }else{
+          x[i].parentElement.parentElement.style.color = "#333333";
+        }
       }else{
-        x[i].parentElement.parentElement.style.color = "#333333";
+        if(window.mode == "light"){
+          x[i].parentElement.parentElement.style.color = "#333333";
+        }else{
+          x[i].parentElement.parentElement.style.color = "#ffffff";
+        }
       }
     }
   }
