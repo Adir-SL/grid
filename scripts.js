@@ -80,6 +80,11 @@ function gridSizeV(event) {
       tempB = tempColor;
       tempHex = rgbToHex(Number(tempR), Number(tempG), Number(tempB));
       x[i].value = tempHex;
+      console.log(tempHex)
+
+      // if(tempHex){
+      //   window.mode = "light";
+      // }
 
       colorContrast = hexToRgb(x[i].value).r + hexToRgb(x[i].value).g + hexToRgb(x[i].value).b;
       
