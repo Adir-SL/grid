@@ -68,6 +68,7 @@ a:hover{
   padding: 24px;
   z-index: -1;
 }
+.grid-item .content:hover{}
 .content-img{
   position: absolute;
   width: calc(100% - 48px);
