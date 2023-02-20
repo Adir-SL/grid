@@ -51,6 +51,9 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+a{
+  color: orangered;
+}
 .grid-item .content{
   position: absolute;
   width: calc(100% - 48px);
