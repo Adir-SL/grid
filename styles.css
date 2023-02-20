@@ -395,4 +395,7 @@ h3{
   .arrow-v{
     background-image: url(images/arrow-v-dark.svg);
   }
+  a{
+    color: orangered;
+  }
 }
