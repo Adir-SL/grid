@@ -53,6 +53,10 @@ body {
 }
 a{
   color: orangered;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
 }
 .grid-item .content{
   position: absolute;
