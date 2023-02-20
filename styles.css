@@ -62,7 +62,7 @@ a:hover{
   position: absolute;
   width: calc(100% - 48px);
   height: calc(100% - 48px);
-  overflow: auto;
+  overflow: hidden;
   top: 0;
   left: 0;
   padding: 24px;
