@@ -127,9 +127,9 @@ h3{
 .full-width {
   width: calc(100% - 20px - 48px);
 }
-/* .half-height{
+.half-height{
   height: calc(var(--wrapperSize) / 8 - 20px - 48px);
-} */
+}
 .stickyItem{
   position: sticky;
   top: 12px;
@@ -317,9 +317,6 @@ h3{
   height: 150%;
   z-index: -1;
 }
-.half-height{
-  height: calc(var(--wrapperSize) / 4 - 20px) !important;
-}
 
 @keyframes overlayAnim {
   to{width: calc(90% - var(--bigOverlayMargin)); height: calc(90% - var(--bigOverlayMargin)); top: calc(5% - 12px); left: calc(5% - 12px); box-shadow: 0 0 0 1px rgb(182 182 182), 0 12px 40px 20px #00000022;}
@@ -370,6 +367,9 @@ h3{
   }
   .button-alert{
     left: 24px;
+  }
+  .half-height{
+    height: calc(var(--wrapperSize) / 4 - 20px) !important;
   }
 }
 @media (prefers-color-scheme: dark) {
