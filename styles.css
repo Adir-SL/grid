@@ -84,6 +84,11 @@ a:hover{
 }
 .grid-item .content:hover{
   overflow: auto;
+  scrollbar-color: dark;
+}
+
+.grid-item .content::-webkit-scrollbar-track {
+  background: orange;        /* color of the tracking area */
 }
 .content-img{
   position: absolute;
