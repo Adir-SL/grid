@@ -317,7 +317,7 @@ h3{
   height: 150%;
   z-index: -1;
 }
-.mobile-height{
+.half-height{
   height: calc(var(--wrapperSize) / 4 - 20px) !important;
 }
 
