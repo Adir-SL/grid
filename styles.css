@@ -131,7 +131,7 @@ h3{
 }
 .stickyItem{
   position: sticky;
-  top: 0;
+  top: 4px;
   z-index: 999999;
 }
 .icon-corner{
