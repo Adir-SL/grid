@@ -43,15 +43,12 @@ body {
   background-color: transparent !important;
   box-shadow: none !important;
 }
-.spacer:hover{
-  background-color: unset;
-  box-shadow: unset;
-}
 .spacer::after{
   content: '';
   position: absolute;
-  width: calc(100% - 48px);
+  width: calc(100% + 24px);
   height: 1px;
+  left: -24px;
   top: 50%;
   background-color: rgba(255, 255, 255, 0.3);
 }
