@@ -41,6 +41,11 @@ body {
 }
 .spacer{
   background-color: transparent !important;
+  box-shadow: none !important;
+}
+.spacer:hover{
+  background-color: unset;
+  box-shadow: unset;
 }
 .spacer::after{
   content: '';
