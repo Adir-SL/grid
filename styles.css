@@ -42,6 +42,7 @@ body {
 .spacer{
   background-color: transparent !important;
   box-shadow: none !important;
+  height: 1px;
 }
 .spacer::after{
   content: '';
